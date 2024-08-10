@@ -57,7 +57,7 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("ANNIEMUSIC/assets/annie/AnnieNwel.png")
+    background = Image.open("HINATAMUSIC/assets/annie/AnnieNwel.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((835, 839))
@@ -145,7 +145,6 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 ➻ Iᴅ ✧ {user.id}
 ➻ Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
 ➻ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs ✧ {count}
- 🇲 ᴀᴅᴇ 🇧ʏ 🇲ʀ  🇧ʀᴏᴋᴇɴ 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰**
 **❅─────✧❅✦❅✧─────❅**
 """,
