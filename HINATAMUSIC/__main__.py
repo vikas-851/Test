@@ -35,8 +35,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("ANNIEMUSIC.plugins" + all_module)
-    LOGGER("ANNIEMUSIC.plugins").info("ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
+        importlib.import_module("HINATAMUSIC.plugins" + all_module)
+    LOGGER("HINATAMUSIC.plugins").info("ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
     await userbot.start()
     await JARVIS.start()
     try:
